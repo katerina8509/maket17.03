@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>maket</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<script src="https://use.fontawesome.com/4ae2de40d9.js"></script>
+	<script src="http://code.jquery.com/jquery-1.8.3.js"></script>
+
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="font/KaushanScript-Regular.otf">
+	<link rel="stylesheet" href="css/maket-css.css">
+</head>
+<body>
+	<div class="container">
+		<div class="banner">
+			<div class="header">
+				<div class="wrapper">
+					<div class="header-inner">
+						<div class="header-logo text-white ">
+							<a href="#" class="text-link link-white logo ">MoGo</a>
+						</div>
+						<div class="header-menu">
+							<div class="header-menu-nav">
+								<ul class="header-menu-list">
+									<li class="header-menu-item">	<a href="#" class="text-link link-white link-nav">About</a>
+									</li>
+									<li class="header-menu-item">	<a href="#" class="text-link link-white link-nav ">service</a>
+									</li>
+									<li class="header-menu-item">	<a href="#" class="text-link link-white link-nav">work</a>
+									</li>
+									<li class="header-menu-item">	<a href="#" class="text-link link-white link-nav ">blog</a>
+									</li>
+									<li class="header-menu-item">	<a href="#" class="text-link link-white link-nav">contact</a>
+									</li>
+								</ul>
+								</div>
+								<div class="header-burger">
+									<div class="burger-span"></div>
+								</div>
+				
+							<div class="social-link-menu">
+							<a href="#" class="link-white social-link " ><i class="fa fa-cart-arrow-down" aria-hidden="true"></i></a>
+							<a href="#" class="link-white social-link"  ><i class="fa fa-search" aria-hidden="true"></i></a>
+						</div>
+						</div>
+						
+					</div>
+			</div>
+		</div>
+		</div>
+	</div>
+	<script>
+	$(document).ready(function() {
+		$(".header-burger").click(function(event){
+			$(".burger-span,.header-menu-list").toggleClass('burger-activ');
+			$('body').toggleClass('activ-scroll');
+		});
+	});
+		
+</script>
+</body>
+</html>
