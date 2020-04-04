@@ -234,7 +234,9 @@
 		<div class="devices-inner">
 			<h3 class="title-border-red title-section"><span class="text-italic">For all devices</span>Unique design</h3>
 			<img src="img/display%20bg%20768x1024.png" alt="" class="display">
+				<div class="devices-mobil-img">
 			<img src="img/White.png" alt="" class="devices-mobil">
+				</div>
 		</div>
 	</div>
 </section>
@@ -620,7 +622,7 @@ quote-author">Joshua Earle</span></p>
 			<div class="clients-item">
 				<div class="clients-img-block ">
 					
-						<img src="img/Layer%2047.png" alt="" class="clients-img">
+						<img src="img/photos-78842fGoMmtuD5Z9.png" alt="" class="clients-img">
 					
 				</div>
 			<div class="clients-content ">
@@ -825,7 +827,7 @@ quote-author">Joshua Earle</span></p>
 					</div>
 				</div>
 				<div class="email-client">
-					<input type="email" value="Your Email..."> <button class="email-btn">subscribe</button>
+					<input type="email" value="Your Email..."name="email" class="email-input"> <button class="email-btn">subscribe</button>
 				</div>
 			</div>
 			<div class="footer-blogs footer-item">
@@ -941,7 +943,7 @@ $(document).ready(function() {
 		};*/
 		$('.accord-header').on('click', function(e){
 			e.preventDefault();
-			$(this).closest('.accord-body, .arrow ').toggleClass('activ')
+			$(this).closest('.accordeon-block.activ').toggleClass('activ')
 		});
 		
 		/*slick-slider*/
